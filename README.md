@@ -9,7 +9,6 @@ A full-stack web application with **React + TypeScript** (Vite CLI) on the front
 - [Setup](#setup)
 - [API Documentation](#api-documentation)
 - [Environment Variables](#environment-variables)
-- [License](#license)
 
 ## Features
 
@@ -60,4 +59,18 @@ npm install
 npm run dev
 
 # Open browser at the URL shown in terminal (usually http://localhost:5173)
+```
+
+# API Documentation
+Swagger docs available at /api-docs on backend
+
+JWT-protected endpoints require the token in the Authorization header
+
+# Environment Variables
+```bash
+MONGODB_URI=mongodb://localhost:27017/your-db (or cloud cluster URI)
+JWT_SECRET=your_jwt_secret
+PORT=3000
+JWT_EXPIRES_IN=3600s
+LOG_LEVEL=info
 ```
