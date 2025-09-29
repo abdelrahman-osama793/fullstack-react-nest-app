@@ -57,3 +57,23 @@ npm run dev
 
 # Swagger docs available at
 # http://localhost:3000/api-docs
+
+---
+
+### Frontend
+
+```bash
+# Navigate to frontend
+cd frontend-react-ts
+
+# Install dependencies
+npm install
+
+# Create a .env file
+echo "VITE_API_URL=http://localhost:3000" >> .env
+
+# Run frontend
+npm run dev
+
+# Open browser at the URL shown in terminal (usually http://localhost:5173)
+
