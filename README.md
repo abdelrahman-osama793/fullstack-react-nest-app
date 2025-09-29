@@ -30,10 +30,12 @@ A full-stack web application with **React + TypeScript** (Vite CLI) on the front
 # Clone repository
 git clone git@github.com:your-username/fullstack-react-nest-app.git
 cd fullstack-react-nest-app
+```
 
 # -------------------
 # Backend setup
 # -------------------
+```bash
 cd nest-auth-app
 npm install
 echo "MONGODB_URI=mongodb://localhost:27017/your-db" >> .env
@@ -43,12 +45,15 @@ echo "JWT_EXPIRES_IN=3600s" >> .env
 echo "LOG_LEVEL=info" >> .env
 npm run dev
 # Swagger docs available at http://localhost:3000/api-docs
+```
+
 
 # -------------------
 # Frontend setup
 # -------------------
+```bash
 cd ../frontend-react-ts
 npm install
-echo "VITE_API_URL=http://localhost:3000" >> .env
 npm run dev
 # Open browser at the URL shown in terminal (usually http://localhost:5173)
+```
